@@ -1,0 +1,16 @@
+export const ADD_ARTICLE            = "ADD_ARICLE"
+export const FOUND_BAD_WORD         = "FOUND_BAD_WORD"
+export const DATA_REQUESTED         = "DATA_REQUESTED"
+export const API_ERRORED            = "API_ERRORED"
+export const DATA_LOADED            = "DATA_LOADED"
+
+export const LOGIN                  = "LOGIN"
+export const LOGOUT                 = "LOGOUT"
+export const LOGIN_LOADED           = "LOGIN_LOADED"
+export const ADD_USER               = "ADD_USER"
+export const ADD_USER_REQUESTED     = "ADD_USER_REQUESTED"
+export const UPDATE_USER            = "UPDATE_USER"
+export const FORM_SUBMIT_STATUS     = "FORM_SUBMI_STATUS"
+
+export const API_URL                = "http://localhost:8081/api"
+export const USER_KEY               = "USER"

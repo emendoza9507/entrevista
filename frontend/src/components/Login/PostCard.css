@@ -1,0 +1,34 @@
+.PostCard {
+    background-image: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    color: var(--white);    
+    position: relative;
+}
+
+.PostCard > .title {
+    margin-top: 3em;
+    z-index: 2;
+}
+
+.PostCard .avatar {
+    background-color: var(--white);
+    color: var(--balck);
+    align-self: center;
+}
+
+.PostCard .paper {
+    align-items: center;
+}
+
+.PostCard .footer {
+    padding: 2em;
+    z-index: 2;
+}
+
+.item-description {
+    display: flex;
+    align-items: center;
+}
